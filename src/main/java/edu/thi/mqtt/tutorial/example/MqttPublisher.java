@@ -41,7 +41,7 @@ public class MqttPublisher {
     }
 
     public static int getTemperature(){
-        return (int)(Math.random() * 100);
+        return (int)(Math.random() * 500);
     }
     
     public static int getDrehzahl(){
